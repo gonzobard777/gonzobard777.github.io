@@ -10,8 +10,8 @@
 
 <script>
   (async ()=> {
-    const text = await fetch('/123.json').then(res=> res.text())
-    document.querySelector('#root').innerHTML = text
+    const text = await fetch('/123.zip').then(res=> res.text())
+    document.querySelector('#root').innerHTML = `123.zip is downloaded!`
   })()
 </script>
 

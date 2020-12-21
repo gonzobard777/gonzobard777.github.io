@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script>
+  (async ()=> {
+    const text = await fetch('/polygones.json').then(res=> res.text())
+    document.querySelector('#root').innerHTML = text
+  })()
+</script>
+
+</body>
+</html>

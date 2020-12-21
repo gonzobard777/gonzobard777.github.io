@@ -1,0 +1,7 @@
+.idea
+.cache
+node_modules
+dist
+lerna-debug.log
+package.json.lerna_backup
+pnpm-debug.log
